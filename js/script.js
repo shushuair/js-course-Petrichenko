@@ -18,4 +18,12 @@ personalMovieDb.movies[c] = d;
 
 console.log(personalMovieDb);
 
+//if else
+let value = prompt('Official name of JavaScript?', '');
+
+if (value == 'ECMAScript') {
+   alert('Correct!');
+} else {
+   alert(`You're not right! It's ECMAScript!`);
+}
 
