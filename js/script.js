@@ -27,3 +27,7 @@ if (value == 'ECMAScript') {
    alert(`You're not right! It's ECMAScript!`);
 }
 
+let message = (login == 'Employee') ? 'Hello' :
+   (login == 'Director') ? 'Greetings' :
+      (login == '') ? 'No login' :
+         '';
